@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.topnav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    position: relative;
+
+}
+
+.pic-logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 13px;
+   
+}
+
+label.logo{
+    color: white;
+    font-size: 26px;
+    line-height: 80px;
+    padding: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul{
+    float: right;
+    margin-right: 25px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: goldenrod;
+}
+
+.profile{
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+
+}
+.profile:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 10px;
+    
+}
+
+
+
+.profile h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.profile h2{
+font-size: 59px;
+margin-bottom: 20px;
+
+}
+
+.profile p{
+    margin-bottom: 15px;
+    font-size: 32px;
+
+}
+
+span{
+    color: goldenrod;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0%;
+}
+
+.column img{
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+}
