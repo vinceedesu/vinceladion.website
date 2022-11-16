@@ -157,6 +157,7 @@ span{
     margin: 5%;
     padding: 5%;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -170,7 +171,7 @@ span{
 }
 
 .schoolLogo{
-    width: 60%;
+    width: 80%;
     padding: 2%;
 }
 
@@ -192,7 +193,7 @@ span{
 .school button{
     border: 2px;
     border-radius: 10px;
-    width: 75px;
+    width: 125px;
     height: 40px;
     border-style: solid;
     border-color: goldenrod;
@@ -255,6 +256,11 @@ color: goldenrod;
     font-weight: bold;
 }
 
+.skills h3{
+    padding: 5%;
+    font-size: 46px;
+}
+
 .footer{
     background-color: black;
     width: 100%;
@@ -268,6 +274,32 @@ color: goldenrod;
 
 .footer p{
     color: white;
+}
+
+.experiences h1{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 69px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.experiences {
+    margin: 10%;
+    align-items: center;
+
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.experiences:after{
+content: "";
+display: table;
+clear: both;
 }
 
 
