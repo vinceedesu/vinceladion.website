@@ -20,7 +20,7 @@ body{
     width: 100%;
     background-color: black;
     align-items: center;
-    position: relative;
+    position: fixed;
     margin: 0%;
 }
 
@@ -139,7 +139,7 @@ span{
 .banner img{
     width: 100%;
     height: 100%;
-    position: relative;
+    position:inherit;
     align-self: center;
 }
 
@@ -154,12 +154,24 @@ span{
 .education{
     text-transform: uppercase;
     display: inline-block;
-    margin: 2%;
-    padding: 2%;
+    margin: 5%;
+    padding: 5%;
+    align-items: center;
+    
+}
+
+.education h1{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 69px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .schoolLogo{
-    width: 50px;
+    width: 60%;
+    padding: 2%;
 }
 
 .school{
@@ -176,3 +188,86 @@ span{
     vertical-align: middle;
     
 }
+
+.school button{
+    border: 2px;
+    border-radius: 10px;
+    width: 75px;
+    height: 40px;
+    border-style: solid;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.school button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.school button:hover{
+
+background-color: white;
+color: goldenrod;
+}
+
+.school button a:hover{
+     color: goldenrod;
+}
+
+.click:hover{
+    
+background-color: white;
+color: goldenrod;
+}
+
+.logoSkill{
+    width: 225px;
+    height: 200px;
+}
+
+.skill-container{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    display:inline-block;
+    margin: 5%;
+    padding: 5%;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+ 
+}
+
+
+.skills h1{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 69px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    right: 0%;
+    padding: 46px;
+    position: relative;
+
+}
+
+.footer p{
+    color: white;
+}
+
+
