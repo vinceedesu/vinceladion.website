@@ -303,3 +303,25 @@ clear: both;
 }
 
 
+@media screen and (max-width: 600px){
+
+
+    .topnav{
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        align-items: center;
+        position: fixed;
+        margin: 0%;
+    }
+    label.logo{
+     font-size: 0px;
+    }
+
+    .banner img{
+       width: auto;
+       height: inherit;
+       display: flex    ;
+    }
+
+}
