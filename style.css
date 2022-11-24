@@ -22,13 +22,14 @@ body{
     display: flex;
     align-items: center;
     color: white;
-    text-transform: uppercase;
-    position: static;
+    position: relative;
+    /* height: 8vh; */
 }
 
 .nav-title{
     font-size: 1.75rem;
     padding: .5rem;
+    font-weight: bold;
     
 }
 
@@ -36,6 +37,7 @@ body{
     margin: 0;
     padding: 0; 
     display: flex;
+    text-transform: uppercase;
     /* float: right; */
 
 }
@@ -296,17 +298,26 @@ color: goldenrod;
     background-color: black;
     width: 100%;
     height: 20%;
-    left: 0%;
-    right: 0%;
     padding: 46px;
+    align-items: center;
     position: relative;
 
 }
 
 .footer p{
     color: white;
+    float: right;
 }
 
+.footer img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.social{
+
+    border-radius: 12px;
+}
 .experiences h1{
     margin-left: 40px;
     margin-top: 15px;
@@ -383,8 +394,29 @@ clear: both;
     }
     .banner img{
         width: 100vh;
-        height: 65vh;
-        position: absolute;
+        height: 60vh;
+        /* position: absolute; */
         align-self: center;
     }
+
+    .column{
+        display: none;
+    }
+
+    .column-2{
+        
+        order: 1;
+        width: 50%;
+        padding: 10px;
+        float: top;
+    }
+
+    .column-1{
+        
+        order: 2;
+        width: 50%;
+        padding: 10px;
+        float: none;
+    }
 }
+
