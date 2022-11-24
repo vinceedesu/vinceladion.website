@@ -359,6 +359,7 @@ clear: both;
     }
 
     .topnav{
+        
         flex-direction: column;
         align-items: flex-start;
     }
@@ -379,10 +380,6 @@ clear: both;
         display: flex;
     }
 
-    .banner img{
-       width: auto;
-       display: flex;    ;
-    } 
 
     .nav-title{
         
