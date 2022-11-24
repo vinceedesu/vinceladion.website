@@ -23,7 +23,7 @@ body{
     align-items: center;
     color: white;
     text-transform: uppercase;
-
+    position: static;
 }
 
 .nav-title{
@@ -68,6 +68,13 @@ label.logo{
     margin: .5rem;
     font-weight: bold;
     float: left;
+}
+
+.vlogo {
+    width: 2rem;
+    margin: .5rem;
+    display: none;
+    margin-left: 1rem ;
 }
 
 .toggleBtn{
@@ -164,7 +171,6 @@ span{
 .banner img{
     width: 100%;
     height: 100%;
-    position:inherit;
     align-self: center;
 }
 
@@ -367,4 +373,18 @@ clear: both;
        display: flex;    ;
     } 
 
+    .nav-title{
+        
+        display: none;
+    }
+
+    .vlogo{
+        display: flex;
+    }
+    .banner img{
+        width: 100vh;
+        height: 65vh;
+        position: absolute;
+        align-self: center;
+    }
 }
